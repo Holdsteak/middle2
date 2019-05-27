@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?> 
+<Context displayName="JSP Exercise" docBase="middle2" path="/middle2" reloadable="true">
+  <!--                  SQLServer                      -->
+  <Resource name="jdbc/MemberDB2" type="javax.sql.DataSource"
+      username="sa" password="sa123456"
+      driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+      url="jdbc:sqlserver://localhost:1433;DatabaseName=middleTest"    
+      maxTotal="8"
+      maxIdle="4"
+      maxWaitMillis="5000"
+  />  
+</Context>
