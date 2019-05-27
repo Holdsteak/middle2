@@ -7,5 +7,5 @@ public interface servletDAO {
 
 	public servletBean update(servletBean bean);
 
-	public boolean remove(int Seq);
+	public boolean remove(int Seq); 
 }
